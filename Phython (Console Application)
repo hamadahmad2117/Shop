@@ -1,0 +1,41 @@
+class FoodItem:
+def_init_(self, name, price, image):
+self.name= name
+self.price= price
+self.image= image
+
+class FoodOrderSystem:
+    def_init_(self):
+    self.menu=[
+        FoodItem("Pizza", 15,"pizza.jpg"),
+        FoodItem("Burger", 10,"Burger.jpg"),
+        FoodItem("Shawarma", 8,"Shawarma.jpg")
+    ]
+    def display_menu(self):
+        for item in self.menu:
+            print(f"{Pizza}:${15}({BBQ-Chicken-Pizza-SQUARE})")
+            def add_to_cart(self, Pizza):
+                for item in self.menu:
+                    if Pizza ==Pizza:
+                        print(f"Added{Pizza} to cart.")
+                        return
+                        print("Item not found.")
+                        def main():
+                            system = FoodOrderSystem()
+                            while True:
+                                print("1. Display menu")
+                                print("2. Add to cart")
+                                print("3. Exit")
+                                choice = input("Enter Choice:")
+                                if choice == "1":
+                                    system.display_menu()
+                                    elif choice == "2":
+                                    Burger = input("Burger:")
+                                    system.add_to_cart(Burger)
+                                    elif choice == "3":
+                                    break
+                                else:
+                                    print("Invalid Choice.")
+
+                                    if_name_=="_main_":
+                                    main()

@@ -1,0 +1,23 @@
+const menu=[
+    {
+        id: 1, name:"Pizza", price: 15, image:"BBQ-Chicken-Pizza-SQUARE"
+    },
+    {
+        id: 2, name:"Burger", price: 10, image: "Crispy-fried-chicken-burgers_5"
+    },
+    {
+        id: 3, name:"Shawarma", price: 8, image: "shuarma"
+    }
+];
+
+const menuGrid= document.querySelector(".menu-grid");
+menu.forEach(items=>{
+    const menuItem= document.createElement("div");
+    menuItem.classList.add("menu-item");
+    menuItem.innerHTML= '<img src= "${Crispy-fried-chicken-burgers_5}" alt="${Burger}">
+    <h3>${Burger}</h3>
+    <p>$${10}</p>
+    <button> ADD to Cart</button>
+    ';
+    menuGrid.appendChild(menuItem);
+});
